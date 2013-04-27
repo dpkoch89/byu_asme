@@ -7,8 +7,9 @@
 * 6/20/2012
 */
 
-/* Table of Content
+/* Table of Contents
 ==================================================
+    #Baseline corrections
 	#Site Styles
 	#Page Styles
 	#Media Queries
@@ -16,9 +17,37 @@
 
 /* #Site Styles
 ================================================== */
+p {
+	margin-bottom: 21px;
+}
+
+
+/* #Site Styles
+================================================== */
+
+body {
+	background: url('/images/body_bg.png') repeat;
+	padding: 21px 0;
+}
+
+#main {
+	background: #fff;
+	padding: 14px 0;
+	box-shadow: 0 0 16px #000;
+}
+
+footer {
+	color: #ddd;
+	text-align: center;
+}
 
 /* #Page Styles
 ================================================== */
+
+.home-page-column {
+	background: #ddd;
+	height: 100%;
+}
 
 /* #Media Queries
 ================================================== */

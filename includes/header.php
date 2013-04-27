@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
+	<title><?php if(!empty($title)) { echo $title . ' | '; }?> BYU ASME</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -43,6 +43,12 @@
 
 	<!-- Delete everything in this .container and get started on your own site! -->
 
-	<div class="container">
+<div class="container" id="main">
+	
+	<header>
 		<div class="sixteen columns">
-			
+			<h2>American Society of Mechanical Engineers<br />Brigham Young University Student Chapter</h2>
+		</div> <!-- sixteen columns -->
+	</header>
+	
+<!-- begin page contents -->
