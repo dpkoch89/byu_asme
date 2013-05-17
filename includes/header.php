@@ -45,10 +45,28 @@
 
 <div class="container" id="main">
 	
-	<header>
-		<div class="sixteen columns">
+	
+	<div class="sixteen columns">
+		<header>
 			<h2>American Society of Mechanical Engineers<br />Brigham Young University Student Chapter</h2>
-		</div> <!-- sixteen columns -->
-	</header>
+		</header>
+	</div> <!-- sixteen columns -->
+	
+	
+	<div class="sixteen columns">
+		<nav class="primary">
+			<ul class="clearfix">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Directory</a>
+					<ul>
+						<li><a href="#">Leadership</a></li>
+						<li><a href="#">Faculty</a></li>
+						<li><a href="#">Membership</a></li>
+					</ul>
+				</li>
+					
+			</ul>
+		</nav>
+	</div>
 	
 <!-- begin page contents -->
