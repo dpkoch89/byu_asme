@@ -42,31 +42,34 @@
 	================================================== -->
 
 	<!-- Delete everything in this .container and get started on your own site! -->
-
-<div class="container" id="main">
 	
-	
+<div class="band header">
+<header class="container">
 	<div class="sixteen columns">
-		<header>
-			<h2>American Society of Mechanical Engineers<br />Brigham Young University Student Chapter</h2>
-		</header>
+		<h1>American Society of Mechanical Engineers<br />Brigham Young University Student Chapter</h1>
 	</div> <!-- sixteen columns -->
-	
-	
+</header>
+</div>
+
+<div class="band navigation">
+<nav class="container primary">
 	<div class="sixteen columns">
-		<nav class="primary">
-			<ul class="clearfix">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Directory</a>
-					<ul>
-						<li><a href="#">Leadership</a></li>
-						<li><a href="#">Faculty</a></li>
-						<li><a href="#">Membership</a></li>
-					</ul>
-				</li>
-					
-			</ul>
-		</nav>
-	</div>
-	
+		
+		<ul class="clearfix">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Directory</a>
+				<ul>
+					<li><a href="#">Leadership</a></li>
+					<li><a href="#">Faculty</a></li>
+					<li><a href="#">Membership</a></li>
+				</ul>
+			</li>
+		</ul>
+		
+	</div> <!-- sixteen columns -->
+</nav> <!-- primary -->
+</div>
+
+<div class="band content">
+<div class="container content">
 <!-- begin page contents -->

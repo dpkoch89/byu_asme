@@ -1,10 +1,21 @@
 <!-- end page contents -->
-</div> <!-- container -->
+</div> <!-- content container -->
+</div>
 
-<div class="container">
-	<footer>
+<div class="band content-footer">
+<footer class="container content-footer">
+	<div class="sixteen columns">
 		<p>This is the footer text.</p>
-	</footer>
+	</div> <!-- sixteen columns -->
+</footer>
+</div>
+
+<div class="band copyright-footer">
+<footer class="container copyright-footer">
+	<div class="sixteen columns">
+		<p>Copyright Notice</p>
+	</div>
+</footer>
 </div>
 
 <!-- End Document

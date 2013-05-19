@@ -29,30 +29,59 @@ p {
 	box-sizing: border-box;
 }
 
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
 body {
-	background: url('/images/body_bg.png') repeat;
+	/*background: url('/images/body_bg.png') repeat;*/
+	background-color: #5d6579;
 	padding: 21px 0;
 }
 
-#main {
+/* Bands */
+
+.band {
+	margin: 0 auto;
+}
+
+.band.navigation {}
+
+.band.header {}
+
+.band.content {}
+
+.container.content {
 	background: #fff;
 	padding: 14px 0;
-	box-shadow: 0 0 16px #000;
+	/*box-shadow: 0 0 40px #000;*/
 }
+
+footer.content-footer {
+	background: #d2cdb8;
+}
+
+footer.copyright-footer {
+	background: #444;
+	color: #ddd;
+}
+
+/* Header */
 
 header {
 	text-align: center;
+	background: #fff;
+	/*box-shadow: 0px 0px 30px #222;*/
 }
 
-header h2 {
+header h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 32px;
-}
-
-footer {
-	margin-top: 14px;
-	color: #ddd;
-	text-align: center;
+	color: #181818;
 }
 
 /* Primary Navigation */
@@ -88,10 +117,9 @@ footer {
 .primary-nav ul li a:hover {
 	background: #666;
 }*/
-
+	
 nav.primary {
 	background: #444;
-	margin: 14px 0;
 }
 
 nav.primary ul,
